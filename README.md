@@ -15,7 +15,7 @@ This repository contains a comparative analysis of displaced and host community 
     - `UNHCR_BGD_2023_msnaref_datai_anon_v.2.1.csv`
 
 - `storytelling_presentation/`
-  - A **Flourish** interactive presentation summarizing the analysis for a quick walkthrough
+  - A presentation summarizing the analysis for a quick walkthrough
 
 ## Summary of the Analysis
 
@@ -51,4 +51,4 @@ This project amplifies their stories by uncovering evidence that can drive **equ
 
 ---
 
-For a quick walkthrough of our findings, check out the interactive storytelling presentation in the `storytelling_presentation/` folder (compiled using Flourish).
+For a quick walkthrough of our findings, check out the interactive storytelling presentation in this link: https://public.flourish.studio/story/3071110/
