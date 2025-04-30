@@ -14,8 +14,8 @@ This repository contains a comparative analysis of displaced and host community 
     - `UNHCR_BGD_2023_msnahost_datai_anon_v.2.1.csv`
     - `UNHCR_BGD_2023_msnaref_datai_anon_v.2.1.csv`
 
-- `storytelling_presentation/`
   - A presentation summarizing the analysis for a quick walkthrough
+    https://youtu.be/79wdKiXARuA
 
 ## Summary of the Analysis
 
