@@ -5,15 +5,19 @@ This repository contains a comparative analysis of displaced and host community 
 ## Repository Structure
 
 - `Northern_South_Sudan_Comparative_Analysis/`
-  - Jupyter notebooks with detailed analysis for South Sudan
-  - Original dataset: `UNHCR_FDS_SSD_2023.csv`
+  - Jupyter notebooks with detailed analysis for South Sudan`
 
 - `Bangladesh_Comparative_Analysis/`
   - Jupyter notebooks with detailed analysis for Bangladesh
-  - Datasets:
+  
+-`  Datasets/`
+  - Contains all the UNHCR datasets used for this project
+    **Bangladesh**
     - `UNHCR_BGD_2023_msnahost_datai_anon_v.2.1.csv`
     - `UNHCR_BGD_2023_msnaref_datai_anon_v.2.1.csv`
-
+      **Northern South Sudan**
+    - 'UNHCR_SSD_2023_FDS_data_caregiver.csv'
+    - 'UNHCR_SSD_2023_FDS_data_roster.csv'
   - A presentation summarizing the analysis for a quick walkthrough
     https://youtu.be/79wdKiXARuA
 
