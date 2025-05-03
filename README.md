@@ -18,7 +18,7 @@ Here’s a clearer, more polished version of that section for your README:
 
 This folder contains:
 
-#### 📁 Dataset Subfolders:
+#### Dataset Subfolders:
 
 * **`Bangladesh_Comparative_Analysis/`**
 
@@ -30,9 +30,9 @@ This folder contains:
   * `UNHCR_SSD_2023_FDS_data_caregiver.csv`
   * `UNHCR_SSD_2023_FDS_data_roster.csv`
 
-Each subfolder includes the datasets used for respective regional analysis.
+Each subfolder includes the datasets used for respective regional analyses.
 
-#### 🧩 Visualization Function Files:
+#### Visualization Function Files:
 
 * `bangladesh_visuals.py`:
   Contains plotting functions for the notebook
@@ -85,4 +85,4 @@ This project amplifies their stories by uncovering evidence that can drive **equ
 
 ---
 
-For a quick walkthrough of our findings, check out the interactive storytelling presentation in this link: https://public.flourish.studio/story/3071110/
+For a quick walkthrough of our findings, check out the interactive storytelling presentation at this link: https://public.flourish.studio/story/3071110/
