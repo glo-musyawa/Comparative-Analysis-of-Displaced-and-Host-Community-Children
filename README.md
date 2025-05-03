@@ -10,16 +10,46 @@ This repository contains a comparative analysis of displaced and host community 
 - `Bangladesh_Comparative_Analysis/`
   - Jupyter notebooks with detailed analysis for Bangladesh
   
--`  Datasets/`
-  - Contains all the UNHCR datasets used for this project
-    **Bangladesh**
-    - `UNHCR_BGD_2023_msnahost_datai_anon_v.2.1.csv`
-    - `UNHCR_BGD_2023_msnaref_datai_anon_v.2.1.csv`
-      **Northern South Sudan**
-    - 'UNHCR_SSD_2023_FDS_data_caregiver.csv'
-    - 'UNHCR_SSD_2023_FDS_data_roster.csv'
-  - A presentation summarizing the analysis for a quick walkthrough
-    https://youtu.be/79wdKiXARuA
+Here’s a clearer, more polished version of that section for your README:
+
+---
+
+-`datasets_and_visuals_functions/`
+
+This folder contains:
+
+#### 📁 Dataset Subfolders:
+
+* **`Bangladesh_Comparative_Analysis/`**
+
+  * `UNHCR_BGD_2023_msnahost_datai_anon_v.2.1.csv`
+  * `UNHCR_BGD_2023_msnaref_datai_anon_v.2.1.csv`
+
+* **`Northern_South_Sudan_Comparative_Analysis/`**
+
+  * `UNHCR_SSD_2023_FDS_data_caregiver.csv`
+  * `UNHCR_SSD_2023_FDS_data_roster.csv`
+
+Each subfolder includes the datasets used for respective regional analysis.
+
+#### 🧩 Visualization Function Files:
+
+* `bangladesh_visuals.py`:
+  Contains plotting functions for the notebook
+  **`Bangladesh_Comparative_Analysis_On_Host_and_Refugees_Children_.ipynb`**
+
+* `south_sudan_visuals_function.py`:
+  Supports visuals for
+  **`South_Sudan_FDS_Children_Cargivers_dataset.ipynb`**
+
+* `south_sudan_visuals_function2.py`:
+  Supports visuals for
+  **`South_Sudan_FDS2Rooster_dataset.ipynb`**
+
+> To keep the notebooks clean and maintainable, all complex visualization code has been modularized into these separate Python files.
+
+---
+
 
 ## Summary of the Analysis
 
