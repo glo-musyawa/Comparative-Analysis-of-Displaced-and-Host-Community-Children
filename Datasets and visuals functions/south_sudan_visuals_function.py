@@ -26,7 +26,7 @@ def possession_of_immunization_cards(results):
     No return value. The function displays the plot directly.
     """
     # Process data
-    group_labels = ['Refugees North', 'Host community North']
+    group_labels = ['Refugees', 'Host community North']
     values_yes = [
         float(results['Refugees']['Yes -----> (%)'].replace('%', '')),
         float(results['Host community North']['Yes -----> (%)'].replace('%', ''))
@@ -110,7 +110,7 @@ def presented_immunization_cards(results_card_show):
     No return value. The function displays the plot directly.
     """
     # Process data
-    group_labels = ['Refugees North', 'Host community North']
+    group_labels = ['Refugees', 'Host community North']
     values_yes = [
         float(results_card_show['Refugees']['Yes -----> (%)'].replace('%', '')),
         float(results_card_show['Host community North']['Yes -----> (%)'].replace('%', ''))
@@ -636,7 +636,7 @@ def vitamin_a_supplementation(vitamin_a_coverage):
     No return value. Displays and saves the plot as 'Vitamin A Supplementation.png'.
     """
     # Process data
-    group_labels = ['Refugees North', 'Host community North']
+    group_labels = ['Refugees', 'Host community North']
     values_yes = [
         float(vitamin_a_coverage['Refugees']['Supplemented -----> (%)'].replace('%', '')),
         float(vitamin_a_coverage['Host community North']['Supplemented -----> (%)'].replace('%', ''))

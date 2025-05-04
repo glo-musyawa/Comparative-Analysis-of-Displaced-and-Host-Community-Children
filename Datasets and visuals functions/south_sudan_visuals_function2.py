@@ -631,7 +631,7 @@ def plot_attendance_accepted_rate(attendance_n_accepted_rate):
     """
     
     # Process data
-    group_labels = ['Refugees North', 'Host community North']
+    group_labels = ['Refugees', 'Host community North']
     values_yes = [
         float(attendance_n_accepted_rate['Refugees']['Yes -----> (%)'].replace('%', '')),
         float(attendance_n_accepted_rate['Host community North']['Yes -----> (%)'].replace('%', ''))
@@ -743,7 +743,7 @@ def plot_interruptions_rate(interruptions_rate):
     """
     
     # Process data
-    group_labels = ['Refugees North', 'Host community North']
+    group_labels = ['Refugees', 'Host community North']
     values_yes = [
         float(interruptions_rate['Refugees']['Yes -----> (%)'].replace('%', '')),
         float(interruptions_rate['Host community North']['Yes -----> (%)'].replace('%', ''))
@@ -825,8 +825,8 @@ def plot_school_interruption_reasons(host_reasons, refugee_reasons):
     bar_width = 0.4
     x = range(len(categories))
 
-    ax.barh([i + bar_width/2 for i in x], host_values, height=bar_width, label='Host Community', color='#aec7e8')
-    ax.barh([i - bar_width/2 for i in x], refugee_values, height=bar_width, label='Refugees', color='#1f77b4')
+    ax.barh([i + bar_width/2 for i in x], host_values, height=bar_width, label='Host Community', color='#1f77b4')
+    ax.barh([i - bar_width/2 for i in x], refugee_values, height=bar_width, label='Refugees', color='#aec7e8')
 
     # Labels and styling
     ax.set_xlabel('Percentage (%)')
@@ -836,6 +836,7 @@ def plot_school_interruption_reasons(host_reasons, refugee_reasons):
     ax.invert_yaxis()  # highest values on top
     ax.legend()
     plt.tight_layout()
+    plt.savefig('Top Reasons for Last School Interruption.png', dpi=300, bbox_inches='tight')
     plt.show()
 
 
