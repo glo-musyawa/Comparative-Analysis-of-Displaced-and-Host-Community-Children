@@ -1,6 +1,9 @@
-# Comparative Analysis of Displaced and Host Community Children – OECD-UNHCR Datathon 2025
+# Comparative Analyses of Displaced and Host Community Children – OECD-UNHCR Datathon 2025
 
-This repository contains a comparative analysis of displaced and host community children in **Northern South Sudan** and **Bangladesh**, conducted as part of the **OECD-UNHCR Datathon 2025**. The goal of this project is to uncover data-driven insights that inform inclusive policies, ensuring that **no child is left behind**, regardless of displacement status.
+This repository contains a comparative analyses of displaced and host community children in **South Sudan** and **Bangladesh**, conducted as part of the **OECD-UNHCR Datathon 2025**. The goal of this project is to uncover data-driven insights that inform inclusive policies, ensuring that **no child is left behind**, regardless of displacement status.
+
+For a quick summary of the findings of the analyses, feel free to check out this video presentation:
+https://youtu.be/8bwSgEaZc-E
 
 ## Repository Structure
 
@@ -10,9 +13,6 @@ This repository contains a comparative analysis of displaced and host community 
 - `Bangladesh_Comparative_Analysis/`
   - Jupyter notebooks with detailed analysis for Bangladesh
   
-Here’s a clearer, more polished version of that section for your README:
-
----
 
 -`datasets_and_visuals_functions/`
 
@@ -57,7 +57,6 @@ The analysis draws on **weighted household survey data from 2023**, with dataset
 
 - **Education**: School attendance, literacy, and enrollment
 - **Healthcare**: Immunization coverage and access to services
-- **Living Conditions**: Shelter type, sanitation, and basic amenities
 
 By applying **population weights**, we ensured representative comparisons between refugee and host children, accounting for sampling design.
 
@@ -85,4 +84,4 @@ This project amplifies their stories by uncovering evidence that can drive **equ
 
 ---
 
-For a quick walkthrough of our findings, check out the interactive storytelling presentation at this link: https://public.flourish.studio/story/3071110/
+Check out the interactive storytelling presentation at this link: https://public.flourish.studio/story/3071110/
